@@ -40,7 +40,7 @@ from visao import linha
 
 leitura = linha.ler_linha(quadro)
 if leitura.encontrou:
-    correcao = pid.calcular(leitura.erro)   # ver o projeto do firmware do seguidor de linha
+    correcao = pid.calcular(leitura.erro)  # ver o projeto do firmware do seguidor de linha
 else:
     procurar_linha()
 ```
